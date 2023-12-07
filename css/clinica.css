@@ -1,0 +1,569 @@
+
+body{
+  background-color: #dbdbdb ;
+}
+br{
+  user-select:none;
+}
+p{
+  color:rgb(99, 99, 99);
+}
+.css-input {
+     padding: 7px;
+     font-size: 17px;
+     border-width: 1px;
+     border-color: #279989;
+     background-color: #fdfdfd;
+     color: #000000;
+     border-style: solid;
+     border-radius: 7px;
+
+}
+ .css-input:focus {
+     outline:none;
+}
+h3{
+  display:flex;
+  justify-content:start;
+  color:#ffffff;
+}
+.titulo{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+
+}
+.buttonPerfil{
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#3db0f6;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.3s;
+  cursor: pointer;
+
+ }
+ .buttonPerfil:hover{
+    background-color:#4c8cf0;
+ }
+
+.ctnFlex{
+  display: flex;
+  justify-content: space-between;
+}
+
+ div.op1 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    div.op2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+ 
+
+    .search {
+      flex: 0 0 40%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .search__input {
+      font-family: "Open Sans", sans-serif;
+      font-size: 17px;
+      color: #333333;
+      background-color: #f4f2f2;
+      border: none;
+      padding: 14px 72px 14px 42px;
+      border-radius: 0.5rem;
+      width: 25rem;
+      margin-left: -34px;
+      margin-right: -66px;
+      transition: all 0.2s;
+    }
+    
+    .search__input:focus {
+      outline: none;
+      width: 30rem;
+      background-color: #f0eeee;
+    }
+    
+    .search__input::-webkit-input-placeholder {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-weight: 500;
+      color: #999999;
+    }
+    
+    .search__button {
+      border: none;
+      background-color: transparent;
+      z-index: 999;
+      cursor: pointer;
+    }
+    
+    .search__button:focus {
+      outline: none;
+    }
+    
+    .search__button:active {
+      transform: translateY(2px);
+    }
+    
+    .search__icon {
+      height: 20px;
+      width: 20px;
+      fill: #999999;
+    }
+
+.wrapper{
+  margin-top: 50px;
+
+}
+
+
+.team{
+  flex-direction: row;
+  width: auto;
+  text-align: center;
+  flex-wrap:wrap;
+  
+}
+
+.team .team_member{
+  margin-left: 50px;
+  border-style:none;
+  margin-bottom: 50px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:0.5rem;
+  position: relative;
+}
+
+.team img{
+ border-radius:10px;   
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body
+{
+  background-color:#B4B6B6;
+    font-family: 'Roboto', sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+
+.product-catagory {
+    font-size: 15px;
+    font-weight: 700;
+
+    color: #434343; 
+}
+
+
+.product-details p {
+    font-size: 0.8rem;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #232323;
+
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 50%;
+
+}
+
+.product-price {
+    font-size: 18px;
+    color: #3cb0fd;
+    font-weight: 600;
+}
+
+.product-price small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #3cb0fd;
+}
+
+
+.rating:not(:checked) > input {
+  position: absolute;
+  appearance: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+  color: #666;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★';
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #3cb0fd;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #3cb0fd;
+}
+
+.rating > input:checked ~ label {
+  color: #3cb0fd;
+}
+
+
+
+
+
+/*------ Settings ------*/
+.containerS {
+  --color: rgb(39, 107, 255);
+  --size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  fill: var(--color);
+}
+
+.containerS .save-regular {
+  position: absolute;
+  animation: keyframes-fill .5s;
+  transform-origin: top;
+}
+
+.containerS .save-solid {
+  position: absolute;
+  animation: keyframes-fill .5s;
+  display: none;
+  transform-origin: top;
+}
+
+/* ------ On check event ------ */
+.containerS input:checked ~ .save-regular {
+  display: none;
+}
+
+.containerS input:checked ~ .save-solid {
+  display: block;
+}
+
+/* ------ Hide the default checkbox ------ */
+.containerS input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-fill {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scaleY(1.2);
+  }
+}
+
+
+/* botão de saiba mais */
+.buttonClinica{
+  display: inline-block;
+  border-radius: 4px;
+  background-color:rgb(39, 107, 255);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ }
+ 
+ .buttonClinica span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+ }
+ 
+ .buttonClinica span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+ }
+ 
+ .buttonClinica:hover span {
+  padding-right: 15px;
+ }
+ 
+ .buttonClinica:hover span:after {
+  opacity: 1;
+  right: 0;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kanit:wght@300&family=Roboto:ital,wght@0,400;1,900&family=Signika&family=Ubuntu&display=swap');
+ .titulos{
+  font-size:1.5rem;
+  color:#4a4a4a;
+  display:flex;
+  justify-content:start;
+
+
+  font-family: 'Signika', sans-serif;
+
+
+ }
+ .subTitulos{
+  font-size:1rem;
+  display:flex;
+  justify-content:start;
+  font-family: 'Signika', sans-serif;
+  color:rgb(41, 41, 41);
+
+}
+ 
+ 
+ .edits {
+  margin:0.2rem;
+  width: 45px;
+  height: 45px;
+  border: none;
+  color:#ffff;
+  border-radius: 50%;
+  background: linear-gradient(-50deg,rgb(39, 107, 255),rgb(112, 186, 255),rgb(39, 107, 255));
+  background-size: 250%;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition-duration: .5s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.11);
+  float:left
+}
+
+.logoIcon {
+  fill: white;
+}
+
+.tooltip {
+  position: absolute;
+  top: -20px;
+  opacity: 0;
+  background: linear-gradient(to right,rgb(39, 107, 255),rgb(108, 184, 255));
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: .2s;
+  pointer-events: none;
+  letter-spacing: 0.5px;
+}
+
+.tooltip::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(45deg,rgb(39, 107, 255),rgb(108, 184, 255));
+  background-size: 1000%;
+  background-position: center;
+  transform: rotate(45deg);
+  bottom: -15%;
+  transition-duration: .3s;
+}
+
+.edits:hover .tooltip {
+  top: -50px;
+  opacity: 1;
+  transition-duration: .3s;
+}
+
+.edits:hover {
+  background-position: right;
+  transition-duration: .5s;
+}
+
+
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select{
+  height: 40px;
+  padding: 0 1rem;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+
+  color: #0d0c22;
+  box-shadow: 0 0 5px  #276bff;
+  transition: .3s ease;
+}
+
+
+.buttono{
+  border-radius: 4px;
+  background-color:rgb(39, 107, 255);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  #bott{
+    display: flex;
+    height:10rem;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+
+  width: 60rem;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header {
+  position: relative;
+  background-clip: border-box;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.75rem;
+display:flex;
+justify-content:center;
+}
+.header img{
+  width:20rem;
+  border-radius:10px;
+}
+
+.info {
+  border: none;
+  padding: 1.5rem;
+  text-align: center;
+}
+.infoN{
+  text-align: start;
+  display: inline-block;
+}
+.infoNN{
+  text-align: end;
+  display: inline-block;
+}
+.title {
+  color: rgb(38 50 56);
+  letter-spacing: 0;
+  line-height: 1.375;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  padding: 0.75rem;
+  border: 1px solid rgb(236 239 241);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 140, 255, 0.082);
+}
+
+.tag {
+  font-weight: 300;
+  font-size: .75rem;
+  display: block;
+}
+
+.action {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 6px -1px rgba(33,150,243,.4),0 2px 4px -2px rgba(33,150,243,.4);
+  color: rgb(255 255 255);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75rem;
+  padding: 0.75rem 1.5rem;
+  background-color: rgb(33 150 243);
+  border-radius: 0.5rem;
+}
+

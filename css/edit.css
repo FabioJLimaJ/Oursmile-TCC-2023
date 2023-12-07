@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.edit-pub{
+	width: 50%;
+	margin: auto;
+padding: 1rem;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#ffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.input-group{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input-text input, textarea, select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    /* borda mais grossa*/
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.button{
+    background-color: #14ccf4;
+    font-size: 15px;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: background .3s;
+}
+
+.btn-send{
+    background-color: rgb(25, 193, 25);
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: Arial;
+    padding: 10px;
+
+}
+
+.btn-cancelar{
+    background-color: #FF0000;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    font-family: Arial;
+    padding: 10px;
+}
+
+.btn-cancelar a{
+    text-decoration: none;
+    color: white;
+}
+
+.button-edit{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-file{
+    background:#363735;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    color: #fefefe;
+    margin-bottom: 10px;
+  }
+  
+  .imagem{
+    max-width: 100%;
+  }
+  
+  .file{
+    display:none;
+  }
